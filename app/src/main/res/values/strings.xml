@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="jia_name">+</string>
+    <string name="jian_name">-</string>
+    <string name="chen_name">x</string>
+    <string name="chu_name">÷</string>
+</resources>

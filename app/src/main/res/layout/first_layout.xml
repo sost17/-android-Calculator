@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_y="100dip"
+            android:text="简易计算器"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_blue_dark" />
+    </TableRow>
+
+    <TableLayout
+        android:stretchColumns="4">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/ed"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_y="100dip" />
+
+            <EditText
+                android:id="@+id/ed_one"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="请输入参数"
+                android:layout_y="100dip" />
+
+            <TextView
+                android:id="@+id/e0"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+                android:id="@+id/ed_two"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="请输入参数"
+                android:layout_y="100dip" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:stretchColumns="4"
+        >
+        <TableRow>
+
+            <TextView
+                android:id="@+id/e2"
+                android:layout_width="80dp"
+                />
+
+            <CheckBox android:layout_width="50dp"
+                android:id="@+id/jia_bt"
+                android:text="加"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="normal|bold" />
+
+            <CheckBox android:layout_width="50dp"
+                android:id="@+id/jian_bt"
+                android:text="减"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="normal|bold" />
+
+            <CheckBox android:layout_width="50dp"
+                android:id="@+id/chen_bt"
+                android:text="乘"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="normal|bold" />
+
+            <CheckBox android:text="除"
+                android:layout_width="50dp"
+                android:id="@+id/chu_bt"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="normal|bold" />
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+
+        android:stretchColumns="4">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/e33"
+                android:layout_width="130dp"
+                />
+            <RadioButton android:text="四舍五入"
+                android:id="@+id/round"
+                android:layout_width="100dp"
+                android:layout_height="40dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/jia_one"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold"
+                android:textSize="30sp"
+                android:layout_width="160dp" />
+
+            <TextView
+                android:id="@+id/jia"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/jia_two"
+                android:layout_width="175dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/jian_one"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jian"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/jian_two"
+                android:layout_width="175dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/chen_one"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chen"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chen_two"
+                android:layout_width="175dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/chu_one"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textEnd"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chu"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chu_two"
+                android:layout_width="175dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/e7"
+            android:layout_width="100dp"
+            android:layout_y="100dip"
+            android:text=""
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_red_dark" />
+    </TableRow>
+
+    <TableLayout>
+        <TableRow>
+            <TextView
+                android:id="@+id/e8"
+                android:layout_width="60dp"
+                />
+
+            <Button
+                android:id="@+id/jisuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="0dp"
+                android:layout_y="84dp"
+                android:width="70dip"
+                android:text="计算"
+                android:background="@android:color/background_light" />
+            <TextView
+                android:id="@+id/e9"
+                android:layout_width="60dp"
+                />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="99dp"
+                android:layout_y="84dp"
+                android:width="70dip"
+                android:text="关闭"
+                android:background="@android:color/background_light" />
+        </TableRow>
+    </TableLayout>
+
+
+</TableLayout>

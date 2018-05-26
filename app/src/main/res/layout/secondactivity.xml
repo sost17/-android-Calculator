@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_y="100dip"
+            android:textSize="50sp"
+            />
+    </TableRow>
+
+    <TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/jia_one"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jia"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jia_two"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jia_dengyu"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jia_sum"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="textStart"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/jian_one"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jian"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jian_two"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jian_dengyu"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jian_sum"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/chen_one"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chen"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chen_two"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chen_dengyu"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chen_sum"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/chu_one"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chu"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chu_two"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chu_dengyu"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/chu_sum"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:layout_x="100dip"
+                android:layout_y="10dip"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textSize="30sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/e11"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_y="100dip"
+            android:textSize="50sp"
+            />
+    </TableRow>
+
+    <TableLayout>
+        <TableRow>
+            <TextView
+                android:id="@+id/e8"
+                android:layout_width="70dp"
+                />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="0dp"
+                android:layout_y="84dp"
+                android:width="70dip"
+                android:text="返回"
+                android:background="@android:color/background_light" />
+            <TextView
+                android:id="@+id/e9"
+                android:layout_width="60dp"
+                />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="99dp"
+                android:layout_y="84dp"
+                android:width="70dip"
+                android:text="关闭"
+                android:background="@android:color/background_light" />
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>
